@@ -113,6 +113,10 @@ button {
   color: black;
 }
 
+.attribution {
+  text-align: center;
+  font-size: 0.6rem;
+}
 /* Responsive Design */
 
 @media (max-width: 375px) {
