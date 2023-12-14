@@ -1,6 +1,6 @@
 <h1 align="center">Order Summary Component</h1>
 
-<p>The order summary component is a simple front-end project I built as part of a challenge I took on the Front End Mentor website.</p>
+<p>The order summary component is a simple front-end project I built as part of a challenge I took on the <a href="https://www.frontendmentor.io"> Front End Mentor </a> website.</p>
 
 
 <h2>🚀 Demo</h2>
