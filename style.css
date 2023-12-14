@@ -15,7 +15,6 @@
 }
 
 body {
-  background-image: url(./images/pattern-background-desktop.svg);
   background-size: contain;
   background-repeat: no-repeat;
   font-family: "Red Hat Display", sans-serif;
@@ -112,4 +111,38 @@ button {
 
 .cancel_button:hover {
   color: black;
+}
+
+/* Responsive Design*/
+
+@media (max-width: 375px) {
+  body {
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .card {
+    width: fit-content;
+    margin: 50px auto;
+  }
+  .plan_description {
+    line-height: 20px;
+    margin-left: -20px;
+  }
+
+  .plan_container {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-image: url(./images/pattern-background-desktop.svg);
+  }
 }
